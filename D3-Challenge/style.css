@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Prata&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 200px;
+    width: 100%;
+}
+
+.my-image {
+    width: 100%;
+}
+
+h1,h3 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    font-weight: 600;
+    font-style: oblique;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border: 6px solid;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #ab7f4e, #ffdea4);
+}
+
+a {
+    text-decoration: none;
+    width: fit-content;
+}
+
+a:visited {
+    color: #ab7f4e;
+}
+
+ul {
+    margin-left: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+ul:visited {
+    color: red;
+}
+
+li {
+    margin-left: 0;
+    padding: 0 22px;
+    border-bottom: 1px;
+    border-bottom-color: #dfdfdf;
+    color: black;
+}
+
+.footer {
+    color: white;
+    background-color: black;
+    padding: 16px;
+}
+
+.footer:hover{
+    color: black;
+    background-color: white;
+}
+
+#SaltLakeCity {
+    background: linear-gradient(90deg, #5e8ecc, #abbbd1);
+    margin-top: 0;
+}
+
+#Desert {
+    background: linear-gradient(90deg, #82643d, #f1d4b1);
+    margin-top: 0;
+}
+
+#Nevada {
+    background: linear-gradient(90deg, #342e27, #ded7ae);
+    margin-top: 0;
+}
+
+#Arizona {
+    background: linear-gradient(90deg, #f0cfa5, #ebd6c7);
+    margin-top: 0;
+}
+
+#AeroportoDiCatania {
+    background: linear-gradient(90deg, #878501, #e9eaea);
+    margin-top: 0;
+}
